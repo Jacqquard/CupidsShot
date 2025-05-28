@@ -2,7 +2,7 @@
 
 ![DeclarationOfLove Banner](/image/banner.jpg)
 
-[View a similar project example](https://tympanus.net/codrops/2019/10/15/creating-a-water-like-distortion-effect-with-three-js/)
+[View a similar project example](https://declaration-of-love.vercel.app/)
 
 A heartfelt web application to express deep emotions through an interactive, visually appealing experience. Featuring animated backgrounds, a loading screen, and a narrative-driven slide progression with audio effects.
 
