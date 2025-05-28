@@ -1,5 +1,3 @@
-# DeclarationOfLove
-
 ![DeclarationOfLove Banner](/image/banner.jpg)
 
 [View a similar project example](https://tympanus.net/codrops/2019/10/15/creating-a-water-like-distortion-effect-with-three-js/)
