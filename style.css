@@ -240,7 +240,7 @@ body, html {
 }
 
 /* Изображение (Общие стили) */
-.image-container {
+.img-container {
     margin-bottom: 20px;
     opacity: 0;
     transform: translateY(20px);
@@ -251,12 +251,12 @@ body, html {
     margin-right: auto;
 }
 
-.image-container.visible {
+.img-container.visible {
     opacity: 1;
     transform: translateY(0);
 }
 
-.image-container img {
+.img-container img {
     display: block;
     max-width: 100%; 
     max-height: 300px; 
@@ -267,14 +267,14 @@ body, html {
     box-shadow: 0 0 15px rgba(92, 1, 1, 0.6);
 }
 
-/* === START: Specific styles for slide-8-yes image and layout === */
-#slide-8-yes .image-container {
+/* === START: Specific styles for slide-8-yes img and layout === */
+#slide-8-yes .img-container {
     margin-bottom: 20px; 
     width: auto; 
     max-width: 90vw; 
 }
 
-#slide-8-yes .image-container img {
+#slide-8-yes .img-container img {
     max-height: 60vh; 
 }
 
@@ -282,7 +282,7 @@ body, html {
     margin-top: 0; 
     max-height: 25vh; 
 }
-/* === END: Specific styles for slide-8-yes image and layout === */
+/* === END: Specific styles for slide-8-yes img and layout === */
 
 /* Адаптивность */
 @media (max-width: 768px) {
@@ -301,10 +301,10 @@ body, html {
         font-size: 80px;
     }
     
-    .image-container img { 
+    .img-container img { 
         max-height: 250px;
     }
-     #slide-8-yes .image-container img { 
+     #slide-8-yes .img-container img { 
         max-height: 55vh;
     }
 }
@@ -323,10 +323,10 @@ body, html {
         font-size: 60px;
     }
     
-    .image-container img { 
+    .img-container img { 
         max-height: 200px;
     }
-     #slide-8-yes .image-container img { 
+     #slide-8-yes .img-container img { 
         max-height: 50vh;
     }
     #slide-8-yes .message-box {
