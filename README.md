@@ -75,7 +75,7 @@ The experience is a linear progression through several key emotional stages.
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/Jacqquard/CupidsShot.git
-    cd cupids-shot
+    cd CupidsShot
     ```
 
 2.  **(Optional) Personalize the message:**
