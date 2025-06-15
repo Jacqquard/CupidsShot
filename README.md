@@ -27,12 +27,12 @@ The experience is a linear progression through several key emotional stages.
 <div align="center">
 <table>
   <tr>
-    <td><img src="img/s1.png" alt="Cupid's Shot Main Screen" width="400"/></td>
-    <td><img src="img/s0.png" alt="Cupid's Shot Decision Point" width="400"/></td>
+    <td><img src="img/s1.png" alt="" width="400"/></td>
+    <td><img src="img/s0.png" alt="" width="400"/></td>
   </tr>
   <tr>
-    <td align="center"><em>The confession unfolds over a dynamic, animated background.</em></td>
-    <td align="center"><em>The story culminates in a choice that alters the music and outcome.</em></td>
+    <td align="center"><em>Fake progress bar</em></td>
+    <td align="center"><em>A button that when pressed causes a miracle to happen</em></td>
   </tr>
 </table>
 </div>
