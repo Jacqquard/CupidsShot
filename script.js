@@ -214,7 +214,7 @@ function showSlide(slideId) {
         slide.classList.remove('active');
         const mb = slide.querySelector('.message-box');
         const bc = slide.querySelector('.button-container');
-        const ic = slide.querySelector('.image-container');
+        const ic = slide.querySelector('.img-container');
         if (mb) mb.classList.remove('visible');
         if (bc) bc.classList.remove('visible');
         if (ic) ic.classList.remove('visible');
@@ -230,18 +230,18 @@ function showSlide(slideId) {
     
     const messageBox = currentSlide.querySelector('.message-box');
     const buttonContainer = currentSlide.querySelector('.button-container');
-    const imageContainer = currentSlide.querySelector('.image-container');
+    const imgContainer = currentSlide.querySelector('.img-container');
     
     setTimeout(() => {
-        if (imageContainer) {
-            imageContainer.classList.add('visible');
+        if (imgContainer) {
+            imgContainer.classList.add('visible');
         }
         setTimeout(() => {
             if (messageBox) {
                 messageBox.classList.add('visible');
             }
-        }, imageContainer ? 200 : (messageBox ? 0 : 0) ); 
-        const primaryContentDelay = (imageContainer || messageBox) ? 500 : 0;
+        }, imgContainer ? 200 : (messageBox ? 0 : 0) ); 
+        const primaryContentDelay = (imgContainer || messageBox) ? 500 : 0;
         setTimeout(() => {
             if (buttonContainer) {
                 buttonContainer.classList.add('visible');
@@ -264,11 +264,11 @@ function nextSlide(logicalStepOrContext, option = null) {
     if (slideToAnimateOut) {
         const messageBox = slideToAnimateOut.querySelector('.message-box');
         const buttonContainer = slideToAnimateOut.querySelector('.button-container');
-        const imageContainer = slideToAnimateOut.querySelector('.image-container');
+        const imgContainer = slideToAnimateOut.querySelector('.img-container');
         
         if (messageBox) messageBox.classList.remove('visible');
         if (buttonContainer) buttonContainer.classList.remove('visible');
-        if (imageContainer) imageContainer.classList.remove('visible');
+        if (imgContainer) imgContainer.classList.remove('visible');
     }
     
     let nextSlideIdToShow;
